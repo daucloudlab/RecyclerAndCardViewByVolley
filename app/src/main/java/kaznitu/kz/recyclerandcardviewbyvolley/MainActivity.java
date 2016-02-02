@@ -108,12 +108,13 @@ public class MainActivity extends AppCompatActivity {
                                 movieList.add(movie);
                                 Log.d("MOVIELIST1", movieList.toString()) ;
                                 hideDialog();
-                                rvAdapter.notifyDataSetChanged();
+
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
                         }
+                        rvAdapter.notifyDataSetChanged();
                     }
                 }, new Response.ErrorListener() {
                         @Override
