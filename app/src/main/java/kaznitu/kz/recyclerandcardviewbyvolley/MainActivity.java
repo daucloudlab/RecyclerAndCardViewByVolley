@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         showDialog();
 
-//        initData();
+        initData();
 
         rvAdapter = new RVAdapter(movieList) ;
         LinearLayoutManager llm = new LinearLayoutManager(MainActivity.this) ;
@@ -56,9 +56,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(rvAdapter);
 
-        Log.d("MOVIELIST2", movieList.toString()) ;
 
-        initData();
+
+//        initData();
+        Log.d("MOVIELIST2", movieList.toString()) ;
 
     }
 

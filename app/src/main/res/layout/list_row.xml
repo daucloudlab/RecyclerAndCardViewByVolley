@@ -6,7 +6,7 @@
     android:layout_width = "match_parent"
     android:layout_height = "wrap_content"
     card_view:cardCornerRadius = "6dp"
-    card_view:cardBackgroundColor = "#c2c5d3">
+    card_view:cardBackgroundColor = "#e9eaef">
 <RelativeLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
